@@ -1,0 +1,24 @@
+#show-contact{
+  display: none;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  /* background: #02394A; */
+  background:#02394A;
+  animation: beryl 2s linear infinite ;
+}
+@keyframes beryl{
+  20%{background: #F26DF9;}
+  50%{background: #EB4B98;transform: translate(30px)}
+  70%{background: #5158BB}
+  80%{background: #043565;}
+  90%{background: #02394A;}
+}
+.contact{
+  text-decoration: underline;
+  color: blue;
+}
+.contact:hover{
+  color: rgb(255, 0, 191);
+  cursor: pointer;
+}
